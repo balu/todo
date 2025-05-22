@@ -152,43 +152,43 @@ HTML = """
         color: white;
       }
      .container {
-        background: #222;
+        background: #262626;
       }
       form label {
         color: #eee;
       }
       form input, form select {
-        background: #333;
+        background: #3b3b3b;
         color: white;
       }
       ::placeholder {
         color: #ccc;
       }
       form button {
-        background: #333;
+        background: #3b3b3b;
         color: #fff;
       }
       form button:hover {
-        background: #444;
+        background: #525252;
       }
       .todo-item {
-        background: #333;
+        background: #3b3b3b;
       }
       .todo-times {
         color: #ddd;
       }
       .todo-actions button {
-        background: #eee;
-        color: #222;
+        background: #3b3b3b;
+        color: #fff;
       }
-      .todo-actions button.nope { background: #bf3131; }
-      .todo-actions button.nope:hover { background: #cd3c3c; color: #222; }
-      .todo-actions button.wait { background: #ffc14d; }
-      .todo-actions button.wait:hover { background: #ffdf66; color: #222; }
-      .todo-actions button.done { background: #138a2e; }
-      .todo-actions button.done:hover { background: #1da132; color: #222; }
-      .todo-actions button.todo { background: #47a7df; }
-      .todo-actions button.todo:hover { background: #cbe7f9; color: #222; }
+      .todo-actions button.nope { background: #9b2318; }
+      .todo-actions button.nope:hover { background: #c52f21; color: #fff; }
+      .todo-actions button.wait { background: #5b5300; }
+      .todo-actions button.wait:hover { background: #756b00; color: #fff; }
+      .todo-actions button.done { background: #265e09; }
+      .todo-actions button.done:hover { background: #33790f; color: #fff; }
+      .todo-actions button.todo { background: #184eb8; }
+      .todo-actions button.todo:hover { background: #2060df; color: #fff; }
     }
   </style>
   <script>
