@@ -145,6 +145,51 @@ HTML = """
         text-align: left;
       }
     }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: #111;
+        color: white;
+      }
+     .container {
+        background: #222;
+      }
+      form label {
+        color: #eee;
+      }
+      form input, form select {
+        background: #333;
+        color: white;
+      }
+      ::placeholder {
+        color: #ccc;
+      }
+      form button {
+        background: #333;
+        color: #fff;
+      }
+      form button:hover {
+        background: #444;
+      }
+      .todo-item {
+        background: #333;
+      }
+      .todo-times {
+        color: #ddd;
+      }
+      .todo-actions button {
+        background: #eee;
+        color: #222;
+      }
+      .todo-actions button.nope { background: #bf3131; }
+      .todo-actions button.nope:hover { background: #cd3c3c; color: #222; }
+      .todo-actions button.wait { background: #ffc14d; }
+      .todo-actions button.wait:hover { background: #ffdf66; color: #222; }
+      .todo-actions button.done { background: #138a2e; }
+      .todo-actions button.done:hover { background: #1da132; color: #222; }
+      .todo-actions button.todo { background: #47a7df; }
+      .todo-actions button.todo:hover { background: #cbe7f9; color: #222; }
+    }
   </style>
   <script>
     function onTypeChange() {
