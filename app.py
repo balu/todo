@@ -14,7 +14,7 @@ HTML = """
   <style>
     body {
       font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', monospace;
-      background: #fafafa;
+      background: #f0f0f0;
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -23,7 +23,7 @@ HTML = """
       max-width: 650px;
       margin: 24px auto;
       padding: 16px;
-      background: #fff;
+      background: #ffffff;
       border-radius: 12px;
       box-shadow: 0 2px 8px #0001;
       display: flex;
@@ -39,7 +39,7 @@ HTML = """
     }
     form label {
       font-size: 0.98em;
-      color: #666;
+      color: #595959;
       margin-bottom: 2px;
       margin-top: 8px;
     }
@@ -47,10 +47,10 @@ HTML = """
       font-family: inherit;
       font-size: 1em;
       padding: 4px 8px;
-      border: 1px solid #bbb;
+      border: 1px solid #9f9f9f;
       border-radius: 5px;
       min-width: 0;
-      background: #f5f5f5;
+      background: #f0f0f0;
       line-height: 1.2em;
       height: 2.2em;
       box-sizing: border-box;
@@ -61,8 +61,8 @@ HTML = """
       font-family: inherit;
       font-size: 1em;
       padding: 8px 16px;
-      background: #222;
-      color: #fff;
+      background: #222222;
+      color: #ffffff;
       border: none;
       border-radius: 5px;
       cursor: pointer;
@@ -71,7 +71,7 @@ HTML = """
       width: 100%;
     }
     form button:hover {
-      background: #444;
+      background: #444444;
     }
     ul.todolist {
       list-style: none;
@@ -99,7 +99,7 @@ HTML = """
     .todo-times {
       flex: 2 1 1.2em;
       font-size: 0.95em;
-      color: #888;
+      color: #193668;
       text-align: right;
       display: flex;
       flex-direction: column;
@@ -122,14 +122,14 @@ HTML = """
       color: #222;
       transition: background 0.18s;
     }
-    .todo-actions button.nope { background: #f9c0c0; }
-    .todo-actions button.nope:hover { background: #f88; color: #fff; }
-    .todo-actions button.wait { background: #ffe5b2; }
-    .todo-actions button.wait:hover { background: #ffc14d; color: #fff; }
-    .todo-actions button.done { background: #b5e7b2; }
-    .todo-actions button.done:hover { background: #4ec04e; color: #fff; }
-    .todo-actions button.todo { background: #cbe7f9; }
-    .todo-actions button.todo:hover { background: #47a7df; color: #fff; }
+    .todo-actions button.nope { background: #ff6b6b; }
+    .todo-actions button.nope:hover { background: #ff3b3b; }
+    .todo-actions button.wait { background: #ffd93d; }
+    .todo-actions button.wait:hover { background: #ffc300; }
+    .todo-actions button.done { background: #51cf66; }
+    .todo-actions button.done:hover { background: #38b349; }
+    .todo-actions button.todo { background: #4d96ff; }
+    .todo-actions button.todo:hover { background: #256dff; }
     @media (max-width: 600px) {
       .container {
         max-width: 97vw;
